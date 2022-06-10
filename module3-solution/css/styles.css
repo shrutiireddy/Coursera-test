@@ -1,15 +1,32 @@
 
-
 body{
 	font-size: 16px;
 	color: black;
-	background-color: white;
+	background-color: whitesmoke;
 	font-family: 'Dosis', sans-serif;
+	margin: 0px 0px 0px 0px;
+
 
 }
 
 #header-nav {
-	background-color: darkgrey;
-	border: 2px;
-	border-color: black;
+	background-color: darkgrey;	
+	height: 40px;
+}
+.navbar-brand {
+	padding 25px;
+}
+.navbar-brand h1{ /*resturant name */
+	font-family: 'Anton', sans-serif;
+	color: darkslategray;
+	font-size: 1.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: .75;
+	text-decoration-line: none;
+	padding-top: 10px;
+	}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
 }
