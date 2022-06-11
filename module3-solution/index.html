@@ -5,22 +5,59 @@
 	<meta http-equiv="X-UA-Copatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Assignment Solution for module 3</title>
-	<link rel="stylesheet" href="css/bootstap.main.css">
+	<link rel="stylesheet" href="css/bootstrap.main.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<nav id= "header-nav" class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-brand">
-					<a href="index.html"><h1>Food, LLC</h1></a>
-				</div>
-		</div>
-	</nav>
+		<nav class="navbar">
+			<h1><a href="index.html" class="nav-branding">Food, LLC</a></h1>
+			<ul class="nav-menu">
+				<li class="nav-item">
+					<a href="#section1" class="nav-link">Chicken</a>
+				</li>
+				<li class="nav-item">
+					<a href="#section2" class="nav-link">Beef</a>
+				</li>
+				<li class="nav-item">
+					<a href="#section3" class="nav-link">Sushi</a>
+				</li>
+			</ul>
+			<div class="hamburger visible-xs">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+
+		</nav>
 	</header>
 
+	<div><h2>Our Menu</h2></div>
+
+	 <div class="container-fluid">
+		<div class="row>">
+			<div class="col-md-4 col-sm-6" >
+				<section id="section1"><article id="p"><h3>Chicken</h3>The chicken is a domesticated junglefowl species, with attributes of wild species such as the grey and the Ceylon junglefowl that are originally from Southeastern Asia. Rooster or cock is a term for an adult male bird, and a younger male may be called a cockerel. A male that has been castrated is a capon.</article></div></section>
+
+			<div class="col-md-4 col-sm-6">
+				<section id="section2"><article id="p"><h3>Beef</h3>Beef is the culinary name for meat from cattle. In prehistoric times, humans hunted aurochs and later domesticated them. Since that time, numerous breeds of cattle have been bred specifically for the quality or quantity of their meat.</article></div></section>
+
+			<div class="col-md-4 col-sm-12">
+				<section id="section3"><article id="p"><h3>Sushi</h3>Sushi is a Japanese dish of prepared vinegared rice, usually with some sugar and salt, accompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari, or sumeshi.</article></div></section>
+        </div>
+    </div>
+	 
+
+			
+      		
+
+
+	<script src="js/jquery-1.11.3.min"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
